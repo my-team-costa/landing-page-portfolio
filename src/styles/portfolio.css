@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../../fonts/Gotham-font-family/Gotham/Gotham-Black.otf")
+    format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-font-family/Gotham/Gotham-Black.otf")
+    format("opentype");
+  font-weight: 500;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 100px;
+  gap: 36px;
+}
+
+.portfolio-title {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.portfolio-items-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.portfolio-item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 23px;
+  width: 360px;
+  height: 419px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+#card-itens {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 21px;
+  width: 256px;
+  height: 73px;
+}
+
+.portfolio-item-title {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -0.05em;
+  color: #292929;
+}
+
+.portfolio-item-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  width: 256px;
+  height: 24px;
+}
+
+.portfolio-item-tags {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 5px;
+  width: 84px;
+  height: 24px;
+  background: #e9dffc;
+  border: 1px solid #be9ff6;
+  border-radius: 12px;
+}
+
+.portfolio-item-tags-text {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.05em;
+  color: #784dc7;
+}
+
+.portfolio-item-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 300px;
+  height: 40px;
+  background: #292929;
+}
+
+.button-text {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}

@@ -1,0 +1,78 @@
+.footer {
+  position: absolute;
+  width: 99.2vw;
+  height: 284px;
+  margin-top: 335px;
+  background: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  position: absolute;
+  width: 80vw;
+  height: 20vh;
+  background: #a87ff3;
+  border-radius: 15px;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-texts {
+  width: 50vw;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+#escultures-footer {
+  width: 15vw;
+  position: absolute;
+  bottom: 0;
+  right: 84%;
+}
+
+.menu-footer {
+  margin-top: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 30px;
+  gap: 996px;
+  position: absolute;
+  width: 100vw;
+  right: 0px;
+  bottom: 15%;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.logo-footer {
+  margin-left: 6%;
+  width: 164.25px;
+  height: 60.75px;
+}
+
+.nav-footer {
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+
+.nav-link-footer {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  text-decoration: none;
+}

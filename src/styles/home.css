@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@font-face {
+  font-family: "Gotham";
+  src: url("../../fonts/Gotham-font-family/Gotham/Gotham-Black.otf")
+    format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-font-family/Gotham/Gotham-Black.otf")
+    format("opentype");
+  font-weight: 500;
+}
+
+.navigation-bars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  height: 120px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #292929;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.toggle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 56px;
+  height: 32px;
+  margin-right: 10px;
+  padding: 4px;
+  gap: 4px;
+  background: #051724;
+  border-radius: 32px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-slider {
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.button-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 5px;
+  width: 99px;
+  height: 40px;
+  background: #292929;
+  border-radius: 4px;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 100px;
+  width: 93vw;
+  height: 777px;
+}
+
+#escultures {
+  width: 693px;
+  height: 777px;
+}
+
+#portal {
+  margin-left: 100px;
+  width: 160px;
+  height: 160px;
+}
+
+.design-social {
+  padding: 0px;
+  width: 820px;
+  height: 695px;
+}
+
+.title {
+  width: 1000px;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 90%;
+  letter-spacing: -0.03em;
+  color: #292929;
+}
+
+.name {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 114px;
+  letter-spacing: -0.03em;
+  background: linear-gradient(90deg, #fa709a 0%, #fee140 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 18px;
+}
+
+.media-content {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 660px;
+  height: 144px;
+}
+
+.icons-media {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.icon-media {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px 16px 32px;
+  gap: 8px;
+  width: 600px;
+  height: 52px;
+  background: #292929;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.text-button {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.stat-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 144px 100px 200px 100px;
+  box-sizing: border-box;
+  width: 90vw;
+  height: 372px;
+  background: #f6fff6;
+  border: 1px solid #000000;
+  border-radius: 29px;
+}
+
+.stat-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  height: 208px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.stat-number {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 90%;
+  text-transform: uppercase;
+  color: #64c661;
+}
+
+.stat-label {
+  text-align: center;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  padding-top: 21px;
+  letter-spacing: -0.05em;
+  color: #64c661;
+}
+
+#dawn {
+  margin: 0 40px;
+  width: 80px;
+  height: 80px;
+}
+
+@media (max-width: 1024px) {
+  #escultures,
+  #portal {
+    display: none;
+  }
+}

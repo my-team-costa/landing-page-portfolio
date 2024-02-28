@@ -1,0 +1,123 @@
+.about_me-container {
+  margin: 100px;
+  text-align: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  width: 94vw;
+  gap: 0.2rem 12rem;
+}
+
+.first-square-info {
+  max-width: 600px;
+}
+
+.about_me-content-title {
+  display: flex;
+  align-items: center;
+}
+
+.about_me-title {
+  font-family: "Anton", sans-serf;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #292929;
+  margin-right: 40px;
+}
+
+#zig-zag {
+  width: auto;
+  height: auto;
+}
+
+.about_me-info-designer {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  letter-spacing: -0.05em;
+  color: #464646;
+  margin-top: 76px;
+}
+
+.text-decoration-info {
+  background-image: linear-gradient(to right, #fa709a, #fee140);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#babe {
+  width: 746px;
+  height: 530px;
+}
+
+#spiral {
+  position: absolute;
+  left: 61%;
+  width: 22%;
+}
+
+#dawn-white {
+  position: absolute;
+  width: 29%;
+  right: 60%;
+}
+
+.second-square-info {
+  max-width: 600px;
+}
+
+.about_me-info-designer-second {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: right;
+  letter-spacing: -0.05em;
+  color: #464646;
+  margin: 176px 53px 0 0;
+}
+
+.text-decoration-second-info-first {
+  color: #fee140;
+}
+
+.text-decoration-pink-info {
+  background-image: linear-gradient(to right, #fa709a, #faaf9a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.third-square-info {
+  max-width: 600px;
+}
+
+.about_me-info-designer-third {
+  margin-top: 176px;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+  color: #464646;
+}
+
+#warm {
+  position: absolute;
+  left: 80%;
+  margin-top: 15px;
+}
+
+.text-decoration-colombian-info {
+  background-image: linear-gradient(
+    to right,
+    #ffe76a 22%,
+    #65c8ff 10%,
+    #65c8ff 73%,
+    #ff0000 10%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
