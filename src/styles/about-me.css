@@ -121,3 +121,15 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.text-decoration-info-third {
+  background-image: linear-gradient(to right, #fa709a, #fee140);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-decoration-pink-info-third {
+  background-image: linear-gradient(to right, #fa709a, #faaf9a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

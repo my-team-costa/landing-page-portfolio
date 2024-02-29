@@ -14,7 +14,12 @@
   </head>
   <body>
     <header class="navigation-bars">
-      <img src="src/assets/Logo.png" alt="tian" class="profile-image" />
+      <img
+        src="src/assets/img/Logo.png"
+        alt="tian"
+        id="profileImage"
+        class="profile-image"
+      />
       <div class="info">
         <div class="nav">
           <a href="#home" class="nav-link active">Home</a>
@@ -24,8 +29,14 @@
         </div>
       </div>
       <div class="buttons">
-        <div class="toggle-container">
-          <img id="sun-theme" src="src/assets/sun.svg" alt="" />
+        <div id="toggleContainer" class="toggle-container">
+          <img id="sun-theme" src="src/assets/img/sun.svg" alt="" />
+          <img
+            id="moon-theme"
+            src="src/assets/img/moon.png"
+            alt=""
+            style="display: none"
+          />
           <div class="toggle-slider"></div>
         </div>
         <button id="darkModeButton" class="button-header">Button</button>
@@ -37,7 +48,7 @@
         <div>
           <h1 class="title">
             PRODUCT
-            <img id="portal" src="src/assets/Portal.png" alt="" />
+            <img id="portal" src="src/assets/img/Portal.png" alt="" />
             DESIGNER
           </h1>
 
@@ -46,39 +57,54 @@
         <div class="media-content">
           <div class="icons-media">
             <button class="icon-media">
-              <img src="src/assets/instagram.svg" alt="" />
-            </button>
-            <button class="icon-media">
               <img
-                src="src/assets/figma.svg"
+                src="src/assets/img/social-media/light-mode/instagram.svg"
                 alt=""
-                width="40px"
-                height="40px"
               />
             </button>
             <button class="icon-media">
-              <img src="src/assets/linkedin.svg" alt="" />
+              <img
+                src="src/assets/img/social-media/light-mode/figma.svg"
+                alt=""
+              />
             </button>
             <button class="icon-media">
-              <img src="src/assets/twitter.svg" alt="" />
+              <img
+                src="src/assets/img/social-media/light-mode/linkedin.svg"
+                alt=""
+              />
             </button>
             <button class="icon-media">
-              <img src="src/assets/telegram.svg" alt="" />
+              <img
+                src="src/assets/img/social-media/light-mode/twitter.svg"
+                alt=""
+              />
             </button>
             <button class="icon-media">
-              <img src="src/assets/medium.svg" alt="" />
+              <img
+                src="src/assets/img/social-media/light-mode/telegram.svg"
+                alt=""
+              />
+            </button>
+            <button class="icon-media">
+              <img
+                src="src/assets/img/social-media/light-mode/medium.svg"
+                alt=""
+              />
             </button>
           </div>
           <a href="#" class="button">
             <p class="text-button">Download Curriculum Vitae</p>
 
             <span class="icon">
-              <img src="src/assets/arrow-down.png" alt=""
+              <img
+                src="src/assets/img/social media/light-mode/arrow-down.png"
+                alt=""
             /></span>
           </a>
         </div>
       </div>
-      <img id="escultures" src="src/assets/Escultures.png" alt="" />
+      <img id="escultures" src="src/assets/img/Escultures.png" alt="" />
     </section>
 
     <section class="stat-container">
@@ -90,7 +116,7 @@
             Score on Upwork
           </div>
         </div>
-        <img id="dawn" src="src/assets/Dawn.png" alt="" />
+        <img class="dawn" src="src/assets/img/Dawn.png" alt="" />
         <div class="stat">
           <div class="stat-number">>25.000</div>
           <div class="stat-label">
@@ -99,7 +125,7 @@
           </div>
         </div>
 
-        <img id="dawn" src="src/assets/Dawn.png" alt="" />
+        <img class="dawn" src="src/assets/img/Dawn.png" alt="" />
         <div class="stat">
           <div class="stat-number">>2K</div>
           <div class="stat-label">
@@ -114,7 +140,7 @@
       <div class="portfolio-title">PORTFOLIO</div>
       <div class="portfolio-items-row">
         <div class="portfolio-item">
-          <img id="card-itens" src="src/assets/card-itens.png" alt="" />
+          <img id="card-itens" src="src/assets/img/card-itens.png" alt="" />
           <div class="info-card">
             <div class="portfolio-item-title">Mi portal U</div>
             <div class="portfolio-item-label">
@@ -134,7 +160,7 @@
           </div>
         </div>
         <div class="portfolio-item">
-          <img id="card-itens" src="src/assets/card-itens.png" alt="" />
+          <img id="card-itens" src="src/assets/img/card-itens.png" alt="" />
           <div class="info-card">
             <div class="portfolio-item-title">Mi portal U</div>
             <div class="portfolio-item-label">
@@ -154,7 +180,7 @@
           </div>
         </div>
         <div class="portfolio-item">
-          <img id="card-itens" src="src/assets/card-itens.png" alt="" />
+          <img id="card-itens" src="src/assets/img/card-itens.png" alt="" />
           <div class="info-card">
             <div class="portfolio-item-title">Mi portal U</div>
             <div class="portfolio-item-label">
@@ -174,7 +200,7 @@
           </div>
         </div>
         <div class="portfolio-item">
-          <img id="card-itens" src="src/assets/card-itens.png" alt="" />
+          <img id="card-itens" src="src/assets/img/card-itens.png" alt="" />
           <div class="info-card">
             <div class="portfolio-item-title">Mi portal U</div>
             <div class="portfolio-item-label">
@@ -194,7 +220,7 @@
           </div>
         </div>
         <div class="portfolio-item">
-          <img id="card-itens" src="src/assets/card-itens.png" alt="" />
+          <img id="card-itens" src="src/assets/img/card-itens.png" alt="" />
           <div class="info-card">
             <div class="portfolio-item-title">Mi portal U</div>
             <div class="portfolio-item-label">
@@ -214,7 +240,7 @@
           </div>
         </div>
         <div class="portfolio-item">
-          <img id="card-itens" src="src/assets/card-itens.png" alt="" />
+          <img id="card-itens" src="src/assets/img/card-itens.png" alt="" />
           <div class="info-card">
             <div class="portfolio-item-title">Mi portal U</div>
             <div class="portfolio-item-label">
@@ -234,7 +260,7 @@
           </div>
         </div>
         <div class="portfolio-item">
-          <img id="card-itens" src="src/assets/card-itens.png" alt="" />
+          <img id="card-itens" src="src/assets/img/card-itens.png" alt="" />
           <div class="info-card">
             <div class="portfolio-item-title">Mi portal U</div>
             <div class="portfolio-item-label">
@@ -254,7 +280,7 @@
           </div>
         </div>
         <div class="portfolio-item">
-          <img id="card-itens" src="src/assets/card-itens.png" alt="" />
+          <img id="card-itens" src="src/assets/img/card-itens.png" alt="" />
           <div class="info-card">
             <div class="portfolio-item-title">Mi portal U</div>
             <div class="portfolio-item-label">
@@ -281,7 +307,7 @@
       <div class="skills-item-content">
         <div class="skills-item">
           <div class="skills-item-graph">
-            <img id="graph" src="src/assets/Graph.png" alt="" />
+            <img id="graph" src="src/assets/img/Graph.png" alt="" />
             <p class="skills-item-number">97%</p>
           </div>
           <div class="skills-item-description">
@@ -295,7 +321,7 @@
         </div>
         <div class="skills-item">
           <div class="skills-item-graph">
-            <img id="graph" src="src/assets/Graph.png" alt="" />
+            <img id="graph" src="src/assets/img/Graph.png" alt="" />
             <p class="skills-item-number">97%</p>
           </div>
           <div class="skills-item-description">
@@ -309,7 +335,7 @@
         </div>
         <div class="skills-item">
           <div class="skills-item-graph">
-            <img id="graph" src="src/assets/Graph.png" alt="" />
+            <img id="graph" src="src/assets/img/Graph.png" alt="" />
             <p class="skills-item-number">97%</p>
           </div>
           <div class="skills-item-description">
@@ -323,7 +349,7 @@
         </div>
         <div class="skills-item">
           <div class="skills-item-graph">
-            <img id="graph" src="src/assets/Graph.png" alt="" />
+            <img id="graph" src="src/assets/img/Graph.png" alt="" />
             <p class="skills-item-number">97%</p>
           </div>
           <div class="skills-item-description">
@@ -342,7 +368,7 @@
     <section class="comment-container">
       <img
         id="background-comment"
-        src="src/assets/background-comment.png"
+        src="src/assets/img/background-comment.png"
         alt=""
       />
       <div class="comment-itens">
@@ -353,7 +379,7 @@
           send more work and I do not hesitate to recommend him to you on your
           project also."
         </p>
-        <img id="shield" src="src/assets/Shield.png" alt="" />
+        <img id="shield" src="src/assets/img/Shield.png" alt="" />
       </div>
     </section>
 
@@ -361,7 +387,7 @@
       <div class="first-square-info">
         <div class="about_me-content-title">
           <h1 class="about_me-title">About Me</h1>
-          <img id="zig-zag" src="src/assets/Zig Zag.png" alt="" />
+          <img id="zig-zag" src="src/assets/img/Zig Zag.png" alt="" />
         </div>
         <p class="about_me-info-designer">
           I am a
@@ -374,12 +400,12 @@
         </p>
       </div>
       <div>
-        <img id="babe" src="src/assets/babe-image.png" alt="" />
-        <img id="spiral" src="src/assets/Spiral.png" alt="" />
+        <img id="babe" src="src/assets/img/babe-image.png" alt="" />
+        <img id="spiral" src="src/assets/img/Spiral.png" alt="" />
       </div>
       <div>
-        <img id="selfie-work" src="src/assets/selfie-work.png" alt="" />
-        <img id="dawn-white" src="src/assets/Dawn-white.png" alt="" />
+        <img id="selfie-work" src="src/assets/img/selfie-work.png" alt="" />
+        <img id="dawn-white" src="src/assets/img/Dawn-white.png" alt="" />
       </div>
       <div class="second-square-info">
         <p class="about_me-info-designer-second">
@@ -394,8 +420,8 @@
       <div class="third-square-info">
         <p class="about_me-info-designer-third">
           My full name is
-          <span class="text-decoration-info">Cristian David Muñoz</span>
-          <span class="text-decoration-pink-info">Camayo</span>
+          <span class="text-decoration-info-third">Cristian David Muñoz</span>
+          <span class="text-decoration-pink-info-third">Camayo</span>
           and more than what I said before I am a dreamer, I am proudly
           <span class="text-decoration-colombian-info">Colombian</span> and in
           me you will find a human being with the desire to do his best to help
@@ -403,8 +429,8 @@
         </p>
       </div>
       <div>
-        <img id="selfie-nature" src="src/assets/selfie-nature.png" alt="" />
-        <img id="warm" src="src/assets/Warm.png" alt="" />
+        <img id="selfie-nature" src="src/assets/img/selfie-nature.png" alt="" />
+        <img id="warm" src="src/assets/img/Warm.png" alt="" />
       </div>
     </section>
 
@@ -412,7 +438,7 @@
       <div class="contact-info">
         <img
           id="escultures-footer"
-          src="src/assets/Escultures-footer.png"
+          src="src/assets/img/Escultures-footer.png"
           alt=""
         />
         <div class="contact-texts">
@@ -424,7 +450,11 @@
         </div>
       </div>
       <div class="menu-footer">
-        <img src="src/assets/Logo-white.png" alt="tian" class="logo-footer" />
+        <img
+          src="src/assets/img/Logo-white.png"
+          alt="tian"
+          class="logo-footer"
+        />
         <div class="nav-footer">
           <a href="#home" class="nav-link-footer">Home</a>
           <a href="#portfolio" class="nav-link-footer">Portfolio</a>
@@ -434,6 +464,6 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="src/script.js"></script>
   </body>
 </html>

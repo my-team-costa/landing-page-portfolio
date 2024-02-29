@@ -1,0 +1,80 @@
+.dark-mode {
+  background: #000000;
+}
+
+.dark-mode .nav-link,
+.dark-mode .title,
+.dark-mode .portfolio-title,
+.dark-mode .portfolio-item-title,
+.dark-mode .skills-title,
+.dark-mode .skills-item-number,
+.dark-mode .skills-item-text,
+.dark-mode .skills-item-title,
+.dark-mode .about_me-title,
+.dark-mode .about_me-info-designer,
+.dark-mode .about_me-info-designer-second,
+.dark-mode .about_me-info-designer-third {
+  color: #fff;
+}
+
+.dark-mode .toggle-container {
+  background: #ffec70;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.dark-mode .toggle-slider {
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.dark-mode .button-header {
+  width: 133px;
+  background: #925ff0;
+  border-radius: 4px;
+}
+
+.dark-mode #sun-theme {
+  display: none;
+}
+
+.dark-mode #moon-theme {
+  display: block !important;
+}
+
+.dark-mode .profile-image {
+  width: 73px;
+  height: 27px;
+}
+
+.dark-mode .stat-container {
+  background: #0b0b0b;
+  border: 1px solid #646464;
+}
+
+.dark-mode .stat-number,
+.dark-mode .stat-label {
+  color: #c8fec7;
+}
+
+.dark-mode .portfolio-item {
+  border-color: #737373;
+}
+
+.dark-mode .text-decoration-second-info-first {
+  color: #8fd3f4;
+}
+
+.dark-mode .text-decoration-pink-info {
+  background-image: linear-gradient(to right, #84fab0, #84fab0);
+}
+
+.dark-mode .text-decoration-info-third {
+  background-image: linear-gradient(to right, #e0c3fc, #8ec5fc);
+}
+
+.dark-mode .text-decoration-pink-info-third {
+  background-image: linear-gradient(to right, #e0c3fc, #e0c3fc);
+}
