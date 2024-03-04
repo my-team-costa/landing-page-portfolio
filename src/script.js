@@ -20,6 +20,8 @@ function toggleDarkMode() {
   const profileImage = document.getElementById("profileImage");
   const darkModeButton = document.getElementById("darkModeButton");
   const backgroundComment = document.getElementById("background-comment");
+  const zigZag = document.getElementById("zig-zag");
+  const zigZagSmall = document.getElementById("zig-zag-small");
 
   document.body.classList.toggle("dark-mode");
 
@@ -30,7 +32,9 @@ function toggleDarkMode() {
     portal,
     profileImage,
     darkModeButton,
-    backgroundComment
+    backgroundComment,
+    zigZag,
+    zigZagSmall
   );
 
   toggleSocialMediaImages();
@@ -54,15 +58,21 @@ function updateTheme(
   portal,
   profileImage,
   darkModeButton,
-  backgroundComment
+  backgroundComment,
+  zigZag,
+  zigZagSmall
 ) {
   if (isDarkMode) {
+    zigZag.src = "src/assets/img/Zig Zag white.png";
+    zigZagSmall.src = "src/assets/img/Zig Zag small white.png";
     backgroundComment.src = "src/assets/img/background-comment-dark-mode.png";
     portal.src = "src/assets/img/Portal-white.svg";
     profileImage.src = "src/assets/img/Logo-white.png";
     darkModeButton.innerText = "Contact Me";
     removeImagesOnDarkMode();
   } else {
+    zigZag.src = "src/assets/img/Zig Zag.png";
+    zigZagSmall.src = "src/assets/img/Zig Zag small.png";
     backgroundComment.src = "src/assets/img/background-comment.png";
     portal.src = "src/assets/img/Portal.png";
     profileImage.src = "src/assets/img/Logo.png";

@@ -1,0 +1,78 @@
+/* TABLET */
+@media (max-width: 1024px) {
+  #escultures,
+  #portal,
+  #spiral,
+  #dawn-white,
+  #warm,
+  #zig-zag,
+  #baby,
+  #selfie-nature,
+  #selfie-work,
+  .dawn {
+    display: none;
+  }
+
+  #zig-zag-small,
+  #baby-small,
+  #selfie-work-small,
+  #selfie-nature-small {
+    display: inline;
+  }
+
+  .product-container {
+    justify-content: center;
+  }
+
+  .stat-container {
+    align-items: center;
+    margin: 144px auto 200px auto;
+  }
+
+  .stat-content {
+    gap: 126.5px;
+  }
+
+  .stat-number {
+    font-size: 64px;
+  }
+
+  .stat-label {
+    font-size: 22px;
+  }
+
+  .comment-title,
+  .comment-text {
+    font-size: 40px;
+  }
+
+  .first-square-info {
+    max-width: 415px;
+  }
+
+  .about_me-info-designer-second {
+    max-width: 380px;
+  }
+
+  .third-square-info {
+    max-width: 415px;
+  }
+
+  .about_me-info-designer,
+  .about_me-info-designer-second,
+  .about_me-info-designer-third {
+    font-size: 28px;
+  }
+
+  .about_me-container {
+    gap: 0.1rem 2rem;
+  }
+
+  #escultures-footer {
+    right: 70%;
+  }
+
+  .contact-info {
+    padding-left: 10%;
+  }
+}

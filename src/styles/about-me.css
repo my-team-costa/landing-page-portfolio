@@ -31,6 +31,13 @@
   height: auto;
 }
 
+#zig-zag-small,
+#baby-small,
+#selfie-work-small,
+#selfie-nature-small {
+  display: none;
+}
+
 .about_me-info-designer {
   font-family: "Gotham", sans-serif;
   font-style: normal;
@@ -45,11 +52,6 @@
   background-image: linear-gradient(to right, #fa709a, #fee140);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-#babe {
-  width: 746px;
-  height: 530px;
 }
 
 #spiral {

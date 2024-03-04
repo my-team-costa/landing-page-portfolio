@@ -109,8 +109,9 @@
 }
 
 #background-comment {
+  position: relative;
   width: 99.2vw;
-  height: 80vh;
+  height: 100vh;
 }
 
 .comment-itens {
