@@ -3,7 +3,6 @@
   text-align: flex-start;
   display: flex;
   flex-wrap: wrap;
-  width: 94vw;
   gap: 0.2rem 12rem;
 }
 
@@ -64,6 +63,13 @@
   position: absolute;
   width: 29%;
   right: 60%;
+}
+
+.second-square-info-container {
+  width: 1590px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .second-square-info {

@@ -1,6 +1,7 @@
 .footer {
   position: absolute;
-  width: 99.2vw;
+  max-width: 3000px;
+  width: 99vw;
   height: 284px;
   margin-top: 335px;
   background: #292929;
@@ -11,7 +12,7 @@
 
 .contact-info {
   position: absolute;
-  width: 80vw;
+  width: 80%;
   height: 180px;
   background: #a87ff3;
   border-radius: 15px;

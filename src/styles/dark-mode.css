@@ -78,3 +78,15 @@
 .dark-mode .text-decoration-pink-info-third {
   background-image: linear-gradient(to right, #e0c3fc, #e0c3fc);
 }
+
+@media screen and (max-width: 430px) {
+  .dark-mode .nav {
+    background: #000;
+    color: #fff;
+    border: 1px solid #ccc;
+  }
+
+  .dark-mode .menu-icon {
+    color: white; /* Define a cor do ícone do menu para branco */
+  }
+}

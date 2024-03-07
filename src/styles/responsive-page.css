@@ -64,6 +64,10 @@
     font-size: 28px;
   }
 
+  .second-square-info-container {
+    width: 920px;
+  }
+
   .about_me-container {
     gap: 0.1rem 2rem;
   }
@@ -74,5 +78,215 @@
 
   .contact-info {
     padding-left: 10%;
+  }
+}
+
+/* CELULAR 430px */
+@media screen and (max-width: 430px) {
+  body {
+    max-width: 100%;
+  }
+
+  .menu-icon {
+    font-size: 20px;
+    display: flex;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .nav-link {
+    margin-bottom: 10px;
+  }
+
+  .button-header {
+    display: none;
+  }
+
+  .navigation-bars {
+    justify-content: space-between;
+    padding: 15px 20px;
+    height: 80px;
+  }
+
+  .product-container {
+    margin: 30px 30px;
+    text-align: center;
+  }
+
+  .design-social {
+    width: 100%;
+  }
+
+  .title {
+    width: 359px;
+    font-size: 110px;
+  }
+
+  .name {
+    width: 359px;
+    font-size: 62px;
+  }
+
+  .media-content {
+    width: 366px;
+  }
+
+  .icons-media {
+    gap: 40px;
+  }
+
+  .icon-media {
+    width: 20px;
+    height: 20px;
+  }
+
+  .button {
+    margin-top: 40px;
+    width: 310px;
+  }
+
+  .text-button {
+    font-size: 20px;
+  }
+
+  .stat-container {
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 100px 30px;
+    height: 720px;
+  }
+
+  .stat-content {
+    padding-top: 70px;
+    flex-direction: column;
+    gap: 110px;
+  }
+
+  .stat-number {
+    font-size: 64px;
+  }
+
+  .stat-label {
+    font-size: 22px;
+  }
+
+  .portfolio-container {
+    padding-left: 25px;
+  }
+
+  .skills-container {
+    padding: 100px 30px;
+  }
+
+  .skills-item {
+    flex-direction: column;
+    width: 370px;
+    height: 536px;
+  }
+
+  .skills-item-description {
+    text-align: center;
+    align-items: center;
+    width: 260px;
+  }
+
+  .comment-itens {
+    height: 400px;
+    width: 330px;
+  }
+
+  .comment-title,
+  .comment-text {
+    font-size: 24px;
+  }
+
+  .about_me-container {
+    margin: 100px 40px;
+    gap: 50px;
+  }
+
+  #zig-zag-small {
+    display: none;
+  }
+
+  .about_me-info-designer,
+  .about_me-info-designer-second,
+  .about_me-info-designer-third {
+    font-size: 22px;
+    width: 350px;
+    text-align: left;
+  }
+
+  .about_me-info-designer-second,
+  .about_me-info-designer-third {
+    margin: 0px;
+  }
+
+  #baby-small,
+  #selfie-work-small,
+  #selfie-nature-small {
+    width: 350px;
+    height: 400px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  #selfie-work-small {
+    margin-top: 50px;
+    order: 2;
+  }
+
+  .footer {
+    height: 300px;
+  }
+
+  .contact-info {
+    width: 300px;
+    height: 112px;
+    right: 24px;
+    bottom: 160px;
+  }
+
+  #escultures-footer {
+    width: 135px;
+    height: 190px;
+    right: 60%;
+    bottom: 0;
+  }
+
+  .contact-texts {
+    width: 150px;
+    font-size: 12px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+
+  .menu-footer {
+    flex-direction: column;
+    padding: 0px 22px 30px;
+    gap: 40px;
+  }
+
+  .logo-footer {
+    width: 123.19px;
+    height: 45.56px;
   }
 }
